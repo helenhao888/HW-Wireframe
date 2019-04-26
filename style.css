@@ -1,0 +1,102 @@
+/*1. Your HTML should have each of the following sections:
+   * Header
+   * Nav
+   * Aside (With a Heading)
+   * Section (With a Heading)
+   * Article (With a Heading) contained within the Section
+   * Headers contained within the Article
+   * Paragraph contained within the Article
+2. Your CSS should have styles for each of the following elements:
+   * Body
+     * font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+     * color: '#777'
+     * background: '#777'
+     * width: '960px'
+     * font-size: '18px'
+   * Header, Nav, Section, Aside, and Footer
+     * background: '#ebebeb'
+   * Article
+     * color: '#ebebeb',
+     * background: '#777'
+   * h1 and p
+     * color: '#777',
+     * background: '#ebebeb'
+3. The width of the section should be:
+   * section: 495px */
+
+   * {
+    box-sizing: border-box;
+    text-align:center;
+  }
+
+  body{
+      background:#777;
+      line-height:32px;
+      font-size:18px;
+      color:#777;
+      width:960px;
+      margin-left:130px;
+  }
+
+  header{
+      background:#ebebeb;
+      padding: 10px;
+      margin-bottom: 20px;
+      color: #333;
+    
+  }
+
+  nav{
+    background:#ebebeb;
+    display:box;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+aside{
+    background:#ebebeb;
+    padding: 20px;
+    margin-bottom: 40px;
+    color: #333;
+    float:right;
+    width:48%;
+    height:250px;
+}
+
+section{
+    background:#ebebeb;
+    height:250px;
+    padding: 20px;
+    margin-bottom: 40px;
+    color: #333;
+    float:left;
+    width:48%;
+}
+
+article{
+    color: #333;
+    padding: 10px;
+    background:#777;
+    height:170px;
+}
+
+#division1{
+    background:#ebebeb;
+    margin-bottom:20px;
+    padding: 1px;
+}
+
+
+#division2{
+    background:#ebebeb;
+    margin-bottom:20px;
+    padding: 1px;
+}
+footer{
+    background:#ebebeb;
+    display:box;
+    padding: 20px;
+    clear:both;
+    color: #333;
+}
